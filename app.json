@@ -1,8 +1,9 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/demo1/demo1",
-    "pages/demo2/demo2",
+    "pages/img/img",
+    "pages/mine/mine",
+    "pages/search/search",
     "pages/logs/logs"
   ],
   "window":{
@@ -16,18 +17,34 @@
   "tabBar": {
     "list": [
       {
-        "pagePath": "",
-        "text": "",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/_home.png",
+        "selectedIconPath": "icon/home.png"
       },
       {
-        "pagePath": "",
-        "text": "",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "pagePath": "pages/img/img",
+        "text": "图片",
+        "iconPath": "icon/_img.png",
+        "selectedIconPath": "icon/img.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icon/_my.png",
+        "selectedIconPath": "icon/my.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "icon/_search.png",
+        "selectedIconPath": "icon/search.png"
       }
-    ]
+    ],
+    "color": "#0094ff",
+    "selectedColor": "#ff9400",
+    "backgroundColor": "#ff5533",
+    "position": "bottom"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
