@@ -1,19 +1,32 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #aaa;
-}
+/*
+1. 小程序中不需要主动引入样式文件
+2. 需要把页面中某些元素的单位由 px 转为 rpx
+   1） 设计稿是750px
+       750px = 750rpx
+       1 px = 1 rpx
+   2)  把屏幕宽度改成375px
+        375px = 750rpx
+        1px = 2rpx
+3. 加入设计稿宽度414或者未知
+   设计稿宽度未知，需要实现100px
+   公式：页面宽度 px = 750rpx
+               1px = 750rpx/页面宽度
+               100px = 750rpx * 100/页面宽度
+    利用calc属性去计算
+       运算符两边必须留空格   750和rpx中间不要留空格
+*/
+/*view {*/
+/*  !*width: 200rpx;*!*/
+/*  width: calc(750rpx * 100 / 375);*/
+/*  height: 200rpx;*/
+/*  font-size: 40rpx;*/
+/*  background-color: aqua;*/
+/*}*/
 
-.userinfo-avatar {
-  overflow: hidden;
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
 
-.usermotto {
-  margin-top: 200px;
-}
+
+/*
+1. 引入样式是通过@import来引入
+2. 路径只能写相对路径
+*/
+@import "../../styles/common.wxss";

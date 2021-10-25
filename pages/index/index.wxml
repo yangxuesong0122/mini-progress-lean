@@ -12,7 +12,19 @@
      需要通过自定义属性的方式来传递参数
      事件源中获取自定义属性
 -->
-<input type="text" bindinput="handleInput"/>
+<!--尺寸单位
+rpx: 可以根据屏幕宽度进行自适应。规定屏幕宽度为750rpx。
+  iphone6：屏幕宽度为375px，共有750个物理像素，则 750rpx=375px=750物理像素，1rpx=0.5px=1物理像素
+-->
+
+<!--<input type="text" bindinput="handleInput"/>
 <button bindtap="handletap" data-operation="{{1}}">+</button>
 <button bindtap="handletap" data-operation="{{-1}}">-</button>
-<view>{{num}}</view>
+<view>{{num}}</view>-->
+
+
+
+<!--<view>rpx</view>-->
+
+
+<view>yyy</view>
