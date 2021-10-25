@@ -6,6 +6,11 @@ Page({
       name: '杨雪松',
       age: 18
     },
-    isCheck: true
+    isCheck: true,
+    list: [
+      {id : 1, name: 'yxs'},
+      {id : 2, name: 'yxs1'},
+      {id : 3, name: 'yxs2'}
+    ]
   }
 })
