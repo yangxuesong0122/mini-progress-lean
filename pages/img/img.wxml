@@ -35,3 +35,34 @@
   </view>
 </view>
 
+<!--block标签
+  1. 占位符的标签
+  2. 页面渲染 小程序会把它移除掉
+-->
+<view>
+  <view>block标签</view>
+  <block wx:for="{{person}}" wx:for-item="value" wx:for-index="key" wx:key="name">
+    属性：{{key}} --- 值：{{value}}
+  </block>
+</view>
+
+<!--条件渲染
+1. wx:if="{{true/false}}"
+   wx:elif="{{}}"
+   wx:else
+2. hidden:
+   1. 在标签上直接加上属性 hidden
+   2. hidden="{{true}}"
+
+ 什么场景下用哪个：
+    当标签不是频繁的切换显示，优先使用 wx:if
+      直接把标签从页面结构移除
+    当标签频繁切换显示的时候 优先使用 hidden
+      通过添加样式的方式来切换显示
+-->
+<view>
+  <view>条件渲染</view>
+  <view hidden>hidden</view>
+  <view hidden="{{true}}">hidden</view>
+</view>
+
