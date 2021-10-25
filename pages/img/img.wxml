@@ -1,2 +1,9 @@
 <!--pages/img/img.wxml-->
-<text>pages/img/img.wxml</text>
+<text>{{msg}}</text>
+<view>{{num}}</view>
+<view>{{person.name}}</view>
+<view>{{person.age}}</view>
+<!--在标签的属性中使用-->
+<view data-num="{{num}}"></view>
+<checkbox checked="{{isCheck}}"></checkbox>
+
