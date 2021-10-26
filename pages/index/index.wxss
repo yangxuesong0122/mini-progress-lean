@@ -14,6 +14,8 @@
                100px = 750rpx * 100/页面宽度
     利用calc属性去计算
        运算符两边必须留空格   750和rpx中间不要留空格
+4. 小程序不支持通配符*
+   原生小程序不支持less
 */
 /*view {*/
 /*  !*width: 200rpx;*!*/
@@ -29,4 +31,22 @@
 1. 引入样式是通过@import来引入
 2. 路径只能写相对路径
 */
-@import "../../styles/common.wxss";
+/*@import "../../styles/common.wxss";*/
+
+
+/*image {*/
+/*  box-sizing: border-box;*/
+/*  border:  1px solid red;*/
+/*  height: 300px;*/
+/*  height: 200px;*/
+/*}*/
+
+
+swiper {
+  width: 100%;
+  /* height: calc(100vw * 352 /  1125); */
+  height: 31.28vw;
+}
+image {
+  width: 100%;
+}

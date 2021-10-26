@@ -4,8 +4,7 @@
     "pages/img/img",
     "pages/mine/mine",
     "pages/search/search",
-    "pages/logs/logs",
-    "pages/aa/aa"
+    "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle": "dark",
