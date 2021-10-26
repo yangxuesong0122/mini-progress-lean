@@ -77,8 +77,28 @@ image图片标签：
   10 indicator-active-color 选中的时候的指示器的颜色
 
 -->
-<swiper autoplay interval="1000" circular indicator-dots indicator-color="#0094ff" indicator-active-color="#ff0094">
-  <swiper-item> <image mode="widthFix" src="//gw.alicdn.com/imgextra/i1/44/O1CN013zKZP11CCByG5bAeF_!!44-0-lubanu.jpg" /> </swiper-item>
-  <swiper-item> <image mode="widthFix" src="//aecpm.alicdn.com/simba/img/TB1CWf9KpXXXXbuXpXXSutbFXXX.jpg_q50.jpg" /> </swiper-item>
-  <swiper-item> <image mode="widthFix" src="//gw.alicdn.com/imgextra/i2/37/O1CN01syHZxs1C8zCFJj97b_!!37-0-lubanu.jpg" /> </swiper-item>
-</swiper>
+<!--<swiper autoplay interval="1000" circular indicator-dots indicator-color="#0094ff" indicator-active-color="#ff0094">-->
+<!--  <swiper-item> <image mode="widthFix" src="//gw.alicdn.com/imgextra/i1/44/O1CN013zKZP11CCByG5bAeF_!!44-0-lubanu.jpg" /> </swiper-item>-->
+<!--  <swiper-item> <image mode="widthFix" src="//aecpm.alicdn.com/simba/img/TB1CWf9KpXXXXbuXpXXSutbFXXX.jpg_q50.jpg" /> </swiper-item>-->
+<!--  <swiper-item> <image mode="widthFix" src="//gw.alicdn.com/imgextra/i2/37/O1CN01syHZxs1C8zCFJj97b_!!37-0-lubanu.jpg" /> </swiper-item>-->
+<!--</swiper>-->
+
+
+<!--
+  导航组件 navigator
+  0 块级元素 默认会换行  可以直接加宽度和高度
+  1 url 要跳转的页面路径  绝对路径 相对路径
+  2 target 要跳转到当前的小程序 还是其他的小程序的页面
+    self 默认值 自己 小程序的页面
+    miniProgram 其他的小程序的页面
+  3 open-type 跳转的方式
+    1 navigate 默认值 	保留当前页面，跳转到应用内的某个页面，但是不能跳到 tabbar 页面
+    2 redirect	关闭当前页面，跳转到应用内的某个页面，但是不允许跳转到 tabbar 页面。
+    3 switchTab	跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面
+    4 reLaunch	关闭所有页面，打开到应用内的某个页面
+ -->
+
+<navigator url="/pages/swiper/swiper"> 图片页面 </navigator>
+<!--<navigator open-type="redirect" url="/pages/img/img">  轮播图页面 redirect </navigator>-->
+<!--<navigator open-type="switchTab" url="/pages/index/index">  switchTab直接跳转到 tabbar页面 </navigator>-->
+<!--<navigator open-type="reLaunch" url="/pages/index/index">  reLaunch 可以随便跳 </navigator>-->
