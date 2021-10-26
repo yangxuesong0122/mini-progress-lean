@@ -9,7 +9,7 @@ Page({
         name: "div",
         // 2 标签上有哪些属性
         attrs:{
-          // 标签上的属性 class  style
+          // 标签上的属性 class style
           class: "my_div",
           style: "color: red;"
         },
