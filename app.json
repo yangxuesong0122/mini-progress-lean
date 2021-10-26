@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/icon/icon",
     "pages/button/button",
     "pages/richText/richText",
     "pages/index/index",
