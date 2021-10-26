@@ -9,5 +9,4 @@
   <radio color="#09BB07" value="male">男</radio>
   <radio color="#09BB07" value="female" >女</radio>
 </radio-group>
-
 <view>您选中的是:{{gender}}</view>
