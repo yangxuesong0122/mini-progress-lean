@@ -31,13 +31,13 @@ Component({
         1 给每一个循环性 选中属性 改为 false
         2 给 当前的索引的项添加激活选中效果
       5 点击事件触发的时候 
-        触发父组件中的自定义事件 同时传递数据给  父组件  
+        触发父组件中的自定义事件 同时传递数据给父组件  
         this.triggerEvent("父组件自定义事件的名称",要传递的参数)
        */
       //  2 获取索引
       const {index} = e.currentTarget.dataset;
       // 5 触发父组件中的自定义事件 同时传递数据给  
-      this.triggerEvent("itemChange",{index});
+      this.triggerEvent("itemChange", {index});
     }
   }
 })

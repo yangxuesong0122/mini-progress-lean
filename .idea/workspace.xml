@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="398f903d-1b11-4e37-bdc9-e64eb7cb7af8" name="Changes" comment="小程序radio学习">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mini-test01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Tabs/Tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Tabs/Tabs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
       <workItem from="1635249550620" duration="1210000" />
       <workItem from="1635250825240" duration="641000" />
       <workItem from="1635251482710" duration="10643000" />
+      <workItem from="1635339318396" duration="1234000" />
     </task>
     <task id="LOCAL-00001" summary="小程序首页添加tabbar">
       <created>1635092792596</created>
