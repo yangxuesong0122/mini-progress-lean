@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/pageCycle/pageCycle",
     "pages/zidingyizujian/zidingyizujian",
     "pages/checkbox/checkbox",
     "pages/radio/radio",
