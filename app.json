@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/zidingyizujian/zidingyizujian",
     "pages/checkbox/checkbox",
     "pages/radio/radio",
     "pages/icon/icon",
