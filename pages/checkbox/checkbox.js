@@ -16,6 +16,11 @@ Page({
         id: 2,
         name: "🍌",
         value: "bananer"
+      },
+      {
+        id: 3,
+        name: "梨",
+        value: "梨"
       }
     ],
     checkedList: []
